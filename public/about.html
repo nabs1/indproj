@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition  v 1.16
+     
+
+      Individual Project Template
+  
+      Author: Nabta Hamid
+      Date:  February 14, 2017 
+
+      Filename: page 1.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0">
+   <title>Individual Student Project Template 1</title>
+   <link rel="stylesheet"  href="project.css" />
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css"> 
+</head>
+
+<body>
+   <div id="container">
+      <header>
+         <h1>
+            <img src="https://cdn.gomix.com/b5837224-4076-4b83-beb3-60761ef808ce%2Fptade%202%20301.jpg" alt="INFO 301 - Student Project" title="" />
+         </h1>
+      </header>
+
+	 <!--
+      The nav section (below) contains and unordered list <ul>.
+      Each individual page is listed as a separate line item <li>.
+      Note that the first two line items have been given a unique ID attribute value and an "href"
+      which is a hypertext reference.  You will need to create two additional .htm files and references 
+      for the other tabs to work.   
+	-->  
+	  <nav>
+ 
+	    <ul>
+            <li><a href="index.html">Home</a></li>
+            <li id="products"><a href="/products.html">Beauty</a></li>
+            <li><a href="whoweare.html">Who We Are!</a></li>
+            <li><a href="fashion.html">Fashion</a></li> 
+        <li id="currentpage"><a href="/about.html">About</a></li>
+        
+		</ul>
+      </nav>
+ 	 <!--
+      The heading and paragraph tags below are "placeholders for your own content".
+	-->         
+      <article>
+         <h2>Staying Secure on the WEB!!</h2>
+         <p></p>
+         <p></p>
+        <script>
+  
+    "use strict"; 
+  document.getElementsByTagName("p") [0].innerHTML =
+  "Web browser name: " + navigator.appName; 
+  document.getElementsByTagName("p") [1].innerHTML =
+  "Web browser version: " + navigator.appVersion;
+   document.getElementsByTagName("p") [2].innerHTML =
+  "operating platform: " + navigator.platform;
+   document.getElementsByTagName("p") [3].innerHTML =
+   "User agent: " + navigator.userAgent;
+  document.getElementsByTagName("p")[4].innerHTML = "Connection: " + navigator.onLine;
+  
+  </script>
+        <br>
+    Follow the links below to see how you can stay secure on the web!!!
+        <br>
+        <a href="https://www.getsafeonline.org/protecting-your-computer/safe-internet-use/">Tips on how to safely browse the web. </a>
+        <br>
+        <a href="https://www.helpnetsecurity.com/2010/07/19/10-steps-for-safe-web-surfing/">Click with caution.</a>
+        <br>
+        <a href="http://fieldguide.gizmodo.com/how-to-stay-safe-on-public-wifi-1779464400">Staying safe on public WIFI.</a>
+        
+    
+        
+        
+      </article> 
+     
+    
+      <footer>
+         <p>Your Company &bull; Salisbury, Maryland</p>
+      </footer>
+   </div>
+</body>
+</html>
